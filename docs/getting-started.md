@@ -340,9 +340,11 @@ The SDK is installed, by default, at the following location:
 c:\Android\tools\bin
 ```
 
-You can find the actual location of the SDK in the Android Studio "Preferences" dialog, under **Appearance & Behavior** → **System Settings** → **Android SDK**.
+You can find the actual location of the SDK in the Android Studio "Preferences" dialog, under **Appearance & Behavior** → **System Settings** → **Android SDK**. (system variable)
 
-Open a new Command Prompt window to ensure the new environment variable is loaded before proceeding to the next step.
+Open a new Command Prompt window to ensure the new environment variable is loaded before proceeding to the next step :
+
+cd %ANDROID_HOME% => C:\Users\user\AppData\Local\Android\Sdk>
 
 <h4>4. Add platform-tools to Path</h4>
 
@@ -359,6 +361,7 @@ The default location for this folder is:
 ```powershell
 C:\Android\tools\bin\platform-tools
 ```
+C:\Users\user\AppData\Local\Android\Sdk\platform-tools
 
 <block class="native linux android" />
 
